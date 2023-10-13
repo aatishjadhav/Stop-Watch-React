@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.start {
+  height: 80px;
+  width: 80px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  background-color: green;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.stop {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  background-color: red;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.reset {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  background-color: orange;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.start:disabled {
+  background-color: gray;
+}
+
+
